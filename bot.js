@@ -23,6 +23,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
  const dateFormat = require('dateformat'); 
  const pretty = require('pretty-ms') 
+ const token = "NDcwMjQyOTE0MDIzMjQzNzg2.DjYI_A.5mbRqw_dJG5u9uDC62HUE3xQdkg";
 ,ti={}  
 ,spee={};
 
@@ -2443,4 +2444,4 @@ client.on("message", (message) => {
 });  
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(token);
