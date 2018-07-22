@@ -24,8 +24,8 @@ const sql = require("sqlite");
  const dateFormat = require('dateformat'); 
  const pretty = require('pretty-ms') 
  const token = "NDcwMjQyOTE0MDIzMjQzNzg2.DjYI_A.5mbRqw_dJG5u9uDC62HUE3xQdkg";
-,ti={}  
-,spee={};
+ti={}  
+spee={};
 
 
 
