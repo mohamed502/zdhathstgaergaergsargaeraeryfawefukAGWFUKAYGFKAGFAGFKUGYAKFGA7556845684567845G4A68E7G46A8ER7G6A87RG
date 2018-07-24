@@ -2444,4 +2444,4 @@ client.on("message", (message) => {
 });  
 
 // THIS  MUST  BE  THIS  WAY
-client.login(token);
+client.login('NDcwMjQyOTE0MDIzMjQzNzg2.DjilbQ.VV1NygxolZOX8y4qCDWvOjQbMnQ');
