@@ -2537,27 +2537,27 @@ client.on('message', function(message) {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '472350677558099978').setName("W");
-client.channels.find('id', '472350677558099978').setName("We");
-client.channels.find('id', '472350677558099978').setName("Wel");
-client.channels.find('id', '472350677558099978').setName("Welc");
-client.channels.find('id', '472350677558099978').setName("Welco");
-client.channels.find('id', '472350677558099978').setName("Welcom");
-client.channels.find('id', '472350677558099978').setName("Welcome");
-client.channels.find('id', '472350677558099978').setName("Welcome T");
-client.channels.find('id', '472350677558099978').setName("Welcome To");
-client.channels.find('id', '472350677558099978').setName("Welcome To h");
-client.channels.find('id', '472350677558099978').setName("Welcome To ho");
-client.channels.find('id', '472350677558099978').setName("Welcome To hos");
-client.channels.find('id', '472350677558099978').setName("Welcome To host");
-client.channels.find('id', '472350677558099978').setName("Welcome To host ");
-client.channels.find('id', '472350677558099978').setName("Welcome To host p");
-client.channels.find('id', '472350677558099978').setName("Welcome To host pl");
-client.channels.find('id', '472350677558099978').setName("Welcome To host plu");
-client.channels.find('id', '472350677558099978').setName("Welcome To host plus");
+client.channels.find('id', '472352141650952192').setName("W");
+client.channels.find('id', '472352141650952192').setName("We");
+client.channels.find('id', '472352141650952192').setName("Wel");
+client.channels.find('id', '472352141650952192').setName("Welc");
+client.channels.find('id', '472352141650952192').setName("Welco");
+client.channels.find('id', '472352141650952192').setName("Welcom");
+client.channels.find('id', '472352141650952192').setName("Welcome");
+client.channels.find('id', '472352141650952192').setName("Welcome T");
+client.channels.find('id', '472352141650952192').setName("Welcome To");
+client.channels.find('id', '472352141650952192').setName("Welcome To h");
+client.channels.find('id', '472352141650952192').setName("Welcome To ho");
+client.channels.find('id', '472352141650952192').setName("Welcome To hos");
+client.channels.find('id', '472352141650952192').setName("Welcome To host");
+client.channels.find('id', '472352141650952192').setName("Welcome To host ");
+client.channels.find('id', '472352141650952192').setName("Welcome To host p");
+client.channels.find('id', '472352141650952192').setName("Welcome To host pl");
+client.channels.find('id', '472352141650952192').setName("Welcome To host plu");
+client.channels.find('id', '472352141650952192').setName("Welcome To host plus");
 
 
-  }, 3000);
+  }, 300);
 });
 
 
