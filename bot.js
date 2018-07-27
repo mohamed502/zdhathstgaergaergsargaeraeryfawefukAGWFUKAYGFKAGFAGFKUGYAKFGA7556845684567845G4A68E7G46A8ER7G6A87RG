@@ -2557,7 +2557,7 @@ client.channels.find('id', '472352141650952192').setName("Welcome To host plu");
 client.channels.find('id', '472352141650952192').setName("Welcome To host plus");
 
 
-  }, 30000);
+  }, 3000);
 });
 
 
