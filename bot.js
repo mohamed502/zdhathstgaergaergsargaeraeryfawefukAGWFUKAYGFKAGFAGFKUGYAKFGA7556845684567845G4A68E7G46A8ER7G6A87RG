@@ -2562,6 +2562,46 @@ client.channels.find('id', '472352141650952192').setName("Welcome To host plus")
 
 
 
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '469692023515906061').setName("R");
+client.channels.find('id', '469692023515906061').setName("Ro");
+client.channels.find('id', '469692023515906061').setName("Roa");
+client.channels.find('id', '469692023515906061').setName("Road");
+client.channels.find('id', '469692023515906061').setName("Road ");
+client.channels.find('id', '469692023515906061').setName("Road T");
+client.channels.find('id', '469692023515906061').setName("Road To");
+client.channels.find('id', '469692023515906061').setName("Road To ");
+client.channels.find('id', '469692023515906061').setName("Road To 2");
+client.channels.find('id', '469692023515906061').setName("Road To 2k");
+
+
+  }, 3000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
