@@ -2845,4 +2845,4 @@ var mentionned = message.mentions.members.first();
 
 
 
-client.login('NDcwMjQyOTE0MDIzMjQzNzg2.DjilbQ.VV1NygxolZOX8y4qCDWvOjQbMnQ');
+client.login('NDcwMjQyOTE0MDIzMjQzNzg2.Dk9z5Q.mnju-7_m2Yr3_9iyzJa47cZws1A');
