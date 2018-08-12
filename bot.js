@@ -308,21 +308,9 @@ client.on('guildCreate', guild => {
   New Server Add Speed Bot ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("467833183254347797").sendEmbed(embed)
+client.channels.get("475600783010955264").sendEmbed(embed)
 });
 
-client.on('guildDelete', guild => {
-         const embed = new Discord.RichEmbed()
-     .setColor("GOLD")
-     .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
-  .setDescription(`**
-  Server Kicked Speed Bot :cry:
-اسم السيرفر: ${guild.name}
-صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("467833183254347797").sendEmbed(embed)
-});
- 
 
 client.on('message', message => {
             if(!message.channel.guild) return;
@@ -892,7 +880,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | Mohammed turki and Im_Crazy_DK')
+			      .setFooter('By | Mohammed turki')
     })
 }
 });
