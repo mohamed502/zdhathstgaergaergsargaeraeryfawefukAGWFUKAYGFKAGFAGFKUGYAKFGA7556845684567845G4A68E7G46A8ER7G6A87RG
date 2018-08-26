@@ -112,7 +112,7 @@ let channelr = {};
  if(channelr[channelremover.id].deleted >= Onumber ) {
   Oguild.guild.member(channelremover).kick();
 rebellog.send(`<@!${channelremover.id}>
-حآول العبث بالسيرفر @everyone`);
+حآول العبث بالسيرفر `);
 channel.guild.owner.send(`<@!${channelremover.id}>
 حآول العبث بالسيرفر ${channel.guild.name}`)
 }
@@ -305,7 +305,7 @@ client.on('guildCreate', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
   .setDescription(`**
-  New Server Add Speed Bot ✅
+  New Server Add arab Bot ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("475600783010955264").sendEmbed(embed)
@@ -638,7 +638,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('Speed BOT' ,
+.addField('arab BOT' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -1102,7 +1102,7 @@ function getValue(key, array) {
     if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
   if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
     let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-    let copy = "Speed Bot";
+    let copy = "arab bot";
     let request = `Requested By ${message.author.username}`;
     if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
     msg.react('✅')
@@ -1981,7 +1981,7 @@ const cuttweet = [     'كت تويت ‏| تخيّل لو أنك سترسم ش�
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('Speed bot' ,
+ .addField('arab bot' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
@@ -2080,7 +2080,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("349616310734553088","335027415619338240").send(
+client.users.get("252813587188416512").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2092,7 +2092,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : Elmusaui_GK and SpeedMC")
+     .setFooter("By : mohammed")
                                                 
 
 message.channel.send(embed);
@@ -2230,7 +2230,7 @@ client.on('message', message => {
     .setColor("#707070")
     .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true) 
     .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)               
-    .setFooter(`Speed Bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
+    .setFooter(`arab bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
     .setThumbnail(heg.avatarURL);
     message.channel.send(id)
 }       });
