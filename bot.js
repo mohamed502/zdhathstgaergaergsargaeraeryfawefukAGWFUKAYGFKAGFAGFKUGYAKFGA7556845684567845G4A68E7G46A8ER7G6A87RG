@@ -2529,26 +2529,6 @@ client.on('message', function(message) {
 
 
 
-  
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '469692023515906061').setName("R");
-client.channels.find('id', '469692023515906061').setName("Ro");
-client.channels.find('id', '469692023515906061').setName("Roa");
-client.channels.find('id', '469692023515906061').setName("Road");
-client.channels.find('id', '469692023515906061').setName("Road ");
-client.channels.find('id', '469692023515906061').setName("Road T");
-client.channels.find('id', '469692023515906061').setName("Road To");
-client.channels.find('id', '469692023515906061').setName("Road To ");
-client.channels.find('id', '469692023515906061').setName("Road To 2");
-client.channels.find('id', '469692023515906061').setName("Road To 2k");
-
-
-  }, 3000);
-});
-
-
-
 
 
 
@@ -2656,25 +2636,6 @@ msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?c
 
 
 
-
-
-client.on('message', message => {
-              if (!message.channel.guild) return;
-      if(message.content =='-members')
-      var kayan = new Discord.RichEmbed()
-      .setThumbnail(message.author.avatarURL)
-      .setFooter(message.author.username, message.author.avatarURL) 
-      .setTitle('🌷| Members info')
-      .addBlankField(true)
-      .addField('📗| Online',
-      `${message.guild.members.filter(m=>m.presence.status == 'online').size}`)
-      .addField('📕| DND',`${message.guild.members.filter(m=>m.presence.status == 'dnd').size}`)
-      .addField('📙| Idle',`${message.guild.members.filter(m=>m.presence.status == 'idle').size}`)
-      .addField('📓| Offline',`${message.guild.members.filter(m=>m.presence.status == 'offline').size}`)
-      .addField('➡| Server Members',`${message.guild.memberCount}`)
-      message.channel.send(kayan);
-    
-    });
 
 
 
