@@ -2417,26 +2417,6 @@ client.on("message", (message) => {
     }
 });  
 
-  client.on('message',async message => {
-    if(message.content.startsWith(prefix + "restart")) {
-        if(message.author.id !== "252813587188416512") return message.reply('You aren\'t the bot owner.');
-        message.channel.send('**Restarting.**').then(msg => {
-            setTimeout(() => {
-               msg.edit('**Restarting..**');
-            },1000);
-            setTimeout(() => {
-               msg.edit('**Restarting...**');
-            },2000);
-        });
-        console.log(`${message.author.tag} [ ${message.author.id} ] has restarted the bot.`);
-        console.log(`Restarting..`);
-        setTimeout(() => {
-            client.destroy();
-            client.login('NDcwMjQyOTE0MDIzMjQzNzg2.DjtILQ.GSGZt1p-ybzxrItc2Har3vyQcVo');
-        },3000);
-    }
-});
-  
 
 client.on('message', message => {
   if (message.author.bot) return;
@@ -2706,4 +2686,4 @@ msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?c
 
 
 
-client.login('NDcwMjQyOTE0MDIzMjQzNzg2.Dmd2Ug.oggItf9-UjwBgDZhbm-Rvx68k6w');
+client.login('NDcwMjQyOTE0MDIzMjQzNzg2.Dmh3xw.pvlyZ0yK9En3xOivletwlNc30e0');
