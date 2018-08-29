@@ -2745,4 +2745,4 @@ client.on('message', message => {
 
 
 
-client.login('NDcwMjQyOTE0MDIzMjQzNzg2.DmVlbA.qkgk-FdYEUwLKuROkYoceAnngmk');
+client.login('NDcwMjQyOTE0MDIzMjQzNzg2.Dmd2Ug.oggItf9-UjwBgDZhbm-Rvx68k6w');
